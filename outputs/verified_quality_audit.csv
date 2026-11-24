@@ -1,0 +1,8 @@
+field,missing_count,observed_count,missing_pct
+AQI,94,637,12.86
+PM2.5,120,611,16.42
+PM10,331,400,45.28
+NO2,5,726,0.68
+SO2,5,726,0.68
+CO,10,721,1.37
+O3,78,653,10.67
