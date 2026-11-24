@@ -1,0 +1,9 @@
+metric,group,n,mean_aqi
+Year,2015,286,112.57
+Year,2016,351,105.58
+Season,Winter,122,122.42
+Season,Pre-monsoon,164,111.65
+Season,Monsoon,229,101.71
+Season,Post-monsoon,122,104.25
+Day type,Weekday,454,107.07
+Day type,Weekend,183,112.83
