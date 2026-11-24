@@ -1,0 +1,10 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.py[cod]
+.DS_Store
+outputs/cleaned_bengaluru_2015_2016.csv
+outputs/charts/
+outputs/analysis_summary.json
+data/city_day.csv
