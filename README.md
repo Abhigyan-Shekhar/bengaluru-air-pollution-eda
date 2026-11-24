@@ -24,7 +24,7 @@ This downloads the actual public source CSV and runs the analysis. To avoid an e
 
 The script creates `outputs/analysis_summary.json`, `outputs/descriptive_statistics.csv`, `outputs/missing_outlier_audit.csv`, `outputs/before_cleaning_preview.csv`, `outputs/after_cleaning_preview.csv`, `outputs/multivariate_correlation.csv`, `outputs/cleaned_bengaluru_2015_2016.csv`, `outputs/chart_interpretations.csv`, and eleven **full daily-data charts** under `outputs/charts/` (histogram, categorical bars, time series, year, season, boxplot, two true daily scatter plots, correlations, heatmap and a severity-group chart).
 
-The PowerPoint's charts are **verified summary graphics** produced from the same genuine 731-row extract. The full daily-data scatterplots and boxplots are produced on your machine when you execute `analysis.py`; they are *not* fabricated in advance.
+The previously generated PowerPoint charts are **verified summary graphics** produced from the same genuine 731-row extract. The PowerPoint and PDF are available separately in the ChatGPT project files and are **not yet committed to this GitHub repository**. The full daily-data scatterplots and boxplots are produced on your machine when you execute `analysis.py`; they are *not* fabricated in advance.
 
 ## Ten objectives, analyses and preliminary results
 
@@ -56,7 +56,7 @@ Before/after examples can be found in the PPT and in `outputs/` after you run th
 
 ## Chart explanations (marking requirement)
 
-Each of the 11 chart slides in the PPT contains four explicitly labeled fields: **why this chart**, **pattern observed**, **what it indicates**, and **conclusion**. When you run `analysis.py`, the complete, auditable mapping is also exported as `outputs/chart_interpretations.csv`.
+The separately delivered PPT contains 11 chart slides with four explicitly labeled fields: **why this chart**, **pattern observed**, **what it indicates**, and **conclusion**. When you run `analysis.py`, the complete, auditable mapping is also exported as `outputs/chart_interpretations.csv`.
 
 ## Insights
 
@@ -80,3 +80,7 @@ Expand to the complete historical city dataset, obtain long-term station/hourly 
 ## Suggested GitHub repository structure
 
 Upload all repository files; optionally omit large generated chart files if size is an issue, but keep evidence and your presentation. GitHub repository: https://github.com/Abhigyan-Shekhar/bengaluru-air-pollution-eda
+
+## Repository publication status
+
+Code, notebook, source documentation and verified aggregate evidence have been committed to `main`. The original PowerPoint/PDF and generated PNG previews are **not in this repository** yet. This is stated explicitly to avoid confusing the reproducible code deliverable with the separate presentation artifact.
