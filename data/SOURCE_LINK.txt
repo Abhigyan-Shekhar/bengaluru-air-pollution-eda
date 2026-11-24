@@ -1,0 +1,6 @@
+Primary dataset: https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india
+Exact public extract analyzed: https://github.com/edusatyaki/DataAnalyticsProjrectIdeas/blob/main/01_National_Air_Quality/data/Google%20Sheets%20Datasheets/city_day.csv
+Direct CSV: https://raw.githubusercontent.com/edusatyaki/DataAnalyticsProjrectIdeas/main/01_National_Air_Quality/data/Google%20Sheets%20Datasheets/city_day.csv
+Filter: City == Bengaluru
+Period: 2015-01-01 to 2016-12-31, daily city-level
+Note: Historical; no hourly/station-level claims.
